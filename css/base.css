@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+    /*rgba(0, 0, 0, 0)*/
+}
+body{
+    color: #333;
+    font-size: 16px;
+    font-family: "Microsoft YaHei", sans-serif;
+}
+ol,
+ul{
+    list-style: none;
+}
+a{
+    text-decoration:none
+}
+input, textarea {
+    outline: 0;
+    resize: none;
+    border:0;
+}
+.clearfix::before,
+.clearfix::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
